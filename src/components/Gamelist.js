@@ -18,7 +18,7 @@ const Gamelist = () => {
 
   return (
     <>
-      <SimpleGrid spacing={10} columns={{sm:1, md:2, lg:3, xl:4}}>
+      <SimpleGrid p={5} marginTop='50px' spacing={10} columns={{sm:1, md:2, lg:3, xl:4}} >
         {
           games.map((game) => (
             <GameCard game={game} />
